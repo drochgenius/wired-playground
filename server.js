@@ -1,2 +1,1 @@
-const browserSync = require('browser-sync');
-browserSync({ server: '.', files: ['*.html', 'js/*.js', 'css/*.css'] });
+require('browser-sync')({ server: '.', files: ['*.html', 'js/*.js', 'css/*.css'] });

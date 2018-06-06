@@ -1,6 +1,6 @@
 # wired-playground
 
-Wireframing with wired elements
+Wireframing with [wired elements](https://wiredjs.com/showcase.html)
 
 # getting started
 
