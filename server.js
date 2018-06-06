@@ -1,1 +1,7 @@
-require('browser-sync')({ server: '.', files: ['*.html', 'js/*.js', 'css/*.css'] });
+require('browser-sync')({
+    server: {
+        baseDir: '.',
+        directory: true
+    },
+    files: ['**/*.html', '**/*.js', '**/*.css']
+});
